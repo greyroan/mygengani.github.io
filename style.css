@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  overflow-x: hidden;
+  line-height: 1.8;
+  color: #898fa1;
+  font-size: 15 px;
+  font-family: "lato", sans-serif;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #11245a;
+}
+
+.title-small {
+  font-size: 86px;
+  letter-spacing: 1px;
+}
+
+a {
+  font-weight: 700;
+  transition: all 0.4s ease;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+small {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.logo-text {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #11245a !important;
+}
+
+.navbar {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.navbar .nav-link.active {
+  color: #ff0066;
+}
+
+#Home {
+  background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)),
+    url(https://c4.wallpaperflare.com/wallpaper/351/871/737/cpu-hardware-digital-art-computer-wallpaper-preview.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+#Home h1 {
+  font-weight: 00;
+}
+
+#Home p {
+  max-width: 550px;
+  margin: 18px auto;
+}
+
+.section-intro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-intro .hline {
+  width: 280px;
+  height: 2px;
+  background-color: rgb(0, 0, 0, 0.1);
+  margin: 16px auto 0 auto;
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background-color: #0a058f77;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  flex: none;
+}
+
+.feature .icon-box {
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  font-size: 24px;
+}
+
+.Educational-Background-item,
+.Educational-Background-item-2,
+.Ed-back-item-3,
+.Ed-back-item-4,
+.Ed-back-item-5,
+.food-yarn-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.Educational-Background-item img,
+.Educational-Background-item .educational-background-overlay {
+  transition: all 0.4s ease;
+}
+
+.educational-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #058f4169;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  opacity: 0;
+}
+
+.educational-background-overlay h3,
+.educational-background-overlay h6 {
+  color: white;
+}
+
+.Educational-Background-item:hover .educational-background-overlay {
+  opacity: 1;
+}
+
+.Educational-Background-item:hover img {
+  transform: scale(1.2);
+}
+
+.Educational-Background-item-2 img,
+.Educational-Background-item-2 .educational-background-overlay-2 {
+  transition: all 0.4s ease;
+}
+
+.educational-background-overlay-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0a058f77;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  opacity: 0;
+}
+
+.educational-background-overlay-2 h3,
+.educational-background-overlay-2 h6 {
+  color: white;
+}
+
+.Educational-Background-item-2:hover .educational-background-overlay-2 {
+  opacity: 1;
+}
+
+.Educational-Background-item-2:hover img {
+  transform: scale(1.1);
+}
+
+.Ed-back-item-3 img,
+.Ed-back-item-3 .ed-back-overlay-3 {
+  transition: all 0.4s ease;
+}
+
+.ed-back-overlay-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #9b740089;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  opacity: 0;
+}
+
+.ed-back-overlay-3 h3,
+.ed-back-overlay-3 h6 {
+  color: white;
+}
+
+.Ed-back-item-3:hover .ed-back-overlay-3 {
+  opacity: 1;
+}
+
+.Ed-back-item-3:hover img {
+  transform: scale(1.1);
+}
+
+.Ed-back-item-4 img,
+.Ed-back-item-4 .ed-back-overlay-4 {
+  transition: all 0.4s ease;
+}
+
+.ed-back-overlay-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3f054f93;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  opacity: 0;
+}
+
+.ed-back-overlay-4 h3,
+.ed-back-overlay-4 h6 {
+  color: white;
+}
+
+.Ed-back-item-4:hover .ed-back-overlay-4 {
+  opacity: 1;
+}
+
+.Ed-back-item-4:hover img {
+  transform: scale(1.1);
+}
+
+.Ed-back-item-5 img,
+.Ed-back-item-5 .ed-back-overlay-5 {
+  transition: all 0.4s ease;
+}
+
+.ed-back-overlay-5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0a0670bc;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  opacity: 0;
+}
+
+.ed-back-overlay-5 h3,
+.ed-back-overlay-5 h6 {
+  color: white;
+}
+
+.Ed-back-item-5:hover .ed-back-overlay-5 {
+  opacity: 1;
+}
+
+.Ed-back-item-5:hover img {
+  transform: scale(1.1);
+}
+
+.zild-benitez {
+  background-color: #11245a;
+}
+
+.zild-benitez .hline {
+  width: 70px;
+  height: 2px;
+  margin: 16px auto;
+  background-color: rgba(255, 255, 255, 0.44);
+}
+
+.zild-benitez .zild-img img,
+.zild-benitez .zild-img .social-icons {
+  transition: all 0.4s ease;
+}
+
+.zild-benitez .zild-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.zild-benitez .zild-img .social-icons {
+  width: 100%;
+  height: 60px;
+  background-color: green;
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zild-benitez .zild-img .social-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  color: white;
+  border-radius: 100px;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-decoration: none;
+}
+
+.zild-benitez .zild-img .social-icons a:hover {
+  background-color: white;
+  color: green;
+  text-decoration: none;
+}
+
+.zild-benitez:hover .zild-img .social-icons {
+  bottom: 0;
+}
+
+.zild-benitez:hover img {
+  transform: translateY(-60px);
+}
+
+.heading {
+  text-align: center;
+  color: var(--black);
+  font-size: 4.5rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+.sub-heading {
+  text-align: center;
+  color: var(--black);
+  font-size: 2.5rem;
+  padding: 0.5rem 2rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.food-yarn-item img,
+.food-yarn-item .food-yarn-overlay {
+  transition: all 0.4s ease;
+}
+
+.food-yarn-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a8670679;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  opacity: 0;
+}
+
+.food-yarn-overlay h3,
+.food-yarn-overlay h6 {
+  color: white;
+}
+
+.food-yarn-item:hover .food-yarn-overlay {
+  opacity: 1;
+}
+
+.food-yarn-item:hover img {
+  transform: scale(1.1);
+}
+
+#School-Schedule {
+  background-color: #11245a;
+}
+
+.schedule h1,
+h6 {
+  color: white;
+  text-align: center;
+}
+
+.schedule ul li {
+  margin-top: 8px;
+  color: white;
+}
+
+.contact {
+  background-color: white;
+}
+
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+  color: #11245a;
+}
+
+footer .social-icons a {
+  font-size: 24px;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+  color: #11245a;
+}
+
+footer .footer-links a {
+  display: block;
+  font-weight: 400;
+}
+
+li {
+  list-style-type: none;
+}
